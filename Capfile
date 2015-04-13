@@ -4,6 +4,9 @@ require 'capistrano/setup'
 # Include default deployment tasks
 require 'capistrano/deploy'
 
+# Include what capistrano-laravel told me to
+require 'capistrano/laravel'
+
 # Include tasks from other gems included in your Gemfile
 #
 # For documentation on these, see for example:
